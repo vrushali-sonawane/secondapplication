@@ -14,4 +14,9 @@ public class FirstController {
 		String msg="Good morning";
 	return msg;	
 	}
+	
+	public String getMsg33() {
+		String msg="Good Evening";
+		return msg;
+	}
 }
