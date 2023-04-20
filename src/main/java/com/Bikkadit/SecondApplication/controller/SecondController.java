@@ -12,4 +12,11 @@ public class SecondController {
 		String  msg="Good Night";
 		return msg;
 	}
+	
+	@GetMapping("/")
+	public String getMsg2() {
+		String  msg="Good Night";
+		return msg;
+	}
+	
 }
